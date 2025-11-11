@@ -17,10 +17,10 @@ export default class Greeting {
     constructor(hour, strings) {
         this.hour = hour;
         this.greetings = {
-            0  : strings.greetings.goodmorning,
+            6  : strings.greetings.goodmorning,
             12 : strings.greetings.goodafternoon,
-            16 : strings.greetings.goodevening,
-            19 : strings.greetings.goodnight
+            18 : strings.greetings.goodevening,
+            22 : strings.greetings.goodnight
         };
     }
 
