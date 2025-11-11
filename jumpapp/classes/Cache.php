@@ -66,8 +66,8 @@ class Cache {
             ],
             'sites/status' => [
                 'cache' => null,
-                'expirationtype' => Caching\Cache::Files,
-                'expirationparams' => $config->get('statuscache').' minutes'
+                'expirationtype' => Caching\Cache::Expire,
+                'expirationparams' => '2 minutes'
             ],
             'tags' => [
                 'cache' => null,
